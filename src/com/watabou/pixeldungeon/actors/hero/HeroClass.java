@@ -31,8 +31,8 @@ import com.watabou.pixeldungeon.items.wands.WandOfMagicMissile;
 import com.watabou.pixeldungeon.items.weapon.melee.Dagger;
 import com.watabou.pixeldungeon.items.weapon.melee.Knuckles;
 import com.watabou.pixeldungeon.items.weapon.melee.ShortSword;
-import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
 import com.watabou.pixeldungeon.items.weapon.missiles.Boomerang;
+import com.watabou.pixeldungeon.items.weapon.missiles.Dart;
 import com.watabou.pixeldungeon.ui.QuickSlot;
 import com.watabou.utils.Bundle;
 

@@ -77,7 +77,7 @@ public class Hunger extends Buff implements Hero.Doom {
 					bonus += ((RingOfSatiety.Satiety)buff).level;
 				}
 				
-				float newLevel = level + STEP - bonus;
+				float newLevel = level + (STEP - bonus) * 0.01f;
 				boolean statusUpdated = false;
 				if (newLevel >= STARVING) {
 					

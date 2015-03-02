@@ -22,14 +22,14 @@ import com.watabou.pixeldungeon.items.rings.RingOfMending;
 
 public class Regeneration extends Buff {
 	
-	private static final float REGENERATION_DELAY = 10;
+	private static final float REGENERATION_DELAY = 1.0f;
 	
 	@Override
 	public boolean act() {
 		if (target.isAlive()) {
 
 			if (target.HP < target.HT && !((Hero)target).isStarving()) {
-				target.HP += 1;
+				target.HP += 3;
 			}
 			
 			int bonus = 0;
